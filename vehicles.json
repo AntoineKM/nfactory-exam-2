@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Peugeot 208",
+        "description": "Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.5/km supplémentaire)",
+        "price": 999,
+        "agency": "paris",
+        "images": [
+            "./assets/img/vehicule1.png",
+            "./assets/img/vehicule2.png",
+            "./assets/img/vehicule3.png",
+            "./assets/img/vehicule4.png"
+        ]
+    },
+    {
+        "name": "Ford Focus",
+        "description": "Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.5/km supplémentaire)",
+        "price": 999,
+        "agency": "nancy",
+        "images": [
+            "./assets/img/vehicule2.png",
+            "./assets/img/vehicule3.png",
+            "./assets/img/vehicule4.png",
+            "./assets/img/vehicule1.png"
+        ]
+    },
+    
+    {
+        "name": "Opel Mokka",
+        "description": "Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.4/km supplémentaire)",
+        "price": 1150,
+        "agency": "paris",
+        "images": [
+            "./assets/img/vehicule4.png",
+            "./assets/img/vehicule1.png",
+            "./assets/img/vehicule2.png",
+            "./assets/img/vehicule3.png"
+        ]
+    },
+    {
+        "name": "Audi A1",
+        "description": "Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.55/km supplémentaire)",
+        "price": 1100,
+        "agency": "paris",
+        "images": [
+            "./assets/img/vehicule3.png",
+            "./assets/img/vehicule4.png",
+            "./assets/img/vehicule1.png",
+            "./assets/img/vehicule2.png"
+        ]
+    }
+]

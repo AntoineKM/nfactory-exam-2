@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <div class="nav-btn"></div>
+            <ul class="nav" style="display: none;">
+                <li class="nav-item"><a href="#">Louer une voiture</a></li>
+                <li class="nav-item"><a href="#">Louer un utilitaire</a></li>
+                <li class="nav-item"><a href="#">Réserver un chauffeur</a></li>
+                <li class="nav-item"><a href="#">Découvrez nos agences</a></li>
+                <li class="nav-item"><a href="#">Mon Compte</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="welcome-text">
+            <h1>Bienvenue à bord</h1>
+            <p>Location de voiture 24h/24 et 7j/7</p>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(./assets/img/background1.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(./assets/img/background2.jpg)"></div>
+            </div>
+        </div>
+        <form class="form-float" action="" method="post">
+            <div class="form-container wrap">
+                <div class="form-group">
+                    <select name="adress">
+                        <option value="" hidden>Adresse de départ</option>
+                        <option value="paris">Agence de Paris</option>
+                        <option value="lyon">Agence de Lyon</option>
+                        <option value="rouen">Agence de Rouen</option>
+                        <option value="marseille">Agence de Marseille</option>
+                        <option value="toulouse">Agence de Toulouse</option>
+                        <option value="nancy">Agence de Nancy</option>
+                    </select>
+                    <input type="text" name="date-start" placeholder="Date de début" onfocus="(this.type='date')">
+                    <input type="text" name="date-end" placeholder="Date de fin" onfocus="(this.type='date')">
+                </div>
+                <input type="submit" value="Valider ma recherche">
+            </div>
+        </form>
+    </header>
+    <section id="content">
+        <div class="wrap">
+            <div class="results-header">
+                <p class="results-amount"><b>-</b> résulats</p>
+                <form class="results-order" action="">
+                    <select class="btn btn-selected" name="order">
+                        <option value="increase">Prix croissant</option>
+                        <option value="decrease">Prix décroissant</option>
+                    </select>
+                </form>
+            </div>
+            <div class="results-list"></div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-container">
+            <img class="footer-preview" src="./assets/img/agence.jpg" alt="Agence de Paris">
+            <p class="footer-text">
+                Notre Agence de <b>Paris</b><br>
+                300 Boulevard de Vaugirard, 75015, Paris<br>
+                Ouvert 7j/7 de 09h à 13h et de 14 à 20h<br>
+                <a href="tel:0149782133">01 49 78 21 33</a><br>
+                <a href="mailto:contact@vtc.com">contact@vtc.com</a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
